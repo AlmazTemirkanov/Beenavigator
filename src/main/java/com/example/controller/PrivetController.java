@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Privet;
-import com.example.repo.PrivetRepo;
+import com.example.mainDb.domain.Privet;
+import com.example.mainDb.repo.PrivetRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

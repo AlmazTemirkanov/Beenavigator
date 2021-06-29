@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Pull;
-import com.example.repo.PullRepo;
+import com.example.mainDb.domain.Pull;
+import com.example.mainDb.repo.PullRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

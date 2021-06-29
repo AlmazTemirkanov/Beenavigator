@@ -17,7 +17,7 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addViewController("/privet").setViewName("privet");
         registry.addViewController("/privet_filter").setViewName("privet_filter");
         registry.addViewController("/login").setViewName("login");
-        registry.addViewController("/content").setViewName("content");
+        registry.addViewController("/content").setViewName("mainTableConfig");
         registry.addViewController("/csi_page").setViewName("csi_opio");
 
 

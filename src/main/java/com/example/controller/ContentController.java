@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Content;
-import com.example.repo.ContentRepo;
+import com.example.mainDb.domain.Content;
+import com.example.mainDb.repo.ContentRepo;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,7 +28,7 @@ public class ContentController {
         }
         model.addAttribute("content", content);
         model.addAttribute("filter_content", filter_content);
-        return "content";
+        return "mainTableConfig";
     }
 
     @GetMapping("/content_admin")

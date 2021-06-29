@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.SMS;
-import com.example.repo.SMSRepo;
+import com.example.mainDb.domain.SMS;
+import com.example.mainDb.repo.SMSRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

@@ -1,9 +1,8 @@
 package com.example.controller;
 
-import com.example.domain.Message;
-import com.example.repo.MessageRepo;
+import com.example.mainDb.domain.Message;
+import com.example.mainDb.repo.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

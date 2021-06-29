@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Prepaid;
-import com.example.repo.PrepaidRepo;
+import com.example.mainDb.domain.Prepaid;
+import com.example.mainDb.repo.PrepaidRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
