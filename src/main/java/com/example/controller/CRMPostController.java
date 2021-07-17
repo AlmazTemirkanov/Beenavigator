@@ -1,8 +1,8 @@
 package com.example.controller;
 
 
-import com.example.domain.CRMPost;
-import com.example.repo.CRMPostRepo;
+import com.example.mainDb.domain.CRMPost;
+import com.example.mainDb.repo.CRMPostRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -49,14 +49,14 @@ public class CRMPostController {
         model.addAttribute("crmpost", crmpost);
         model.addAttribute("filter_crmpost_admin", filter_crmpost_admin);
 
-        return "crmpost_admin";
+        return "admin/crmpost_admin";
     }
 
     @GetMapping("/add_crmpost")
     public String add_crmpost (Map<String, Object> model) {
         Iterable <CRMPost> crm = crmPostRepo.findAll();
         model.put("crmpost",crm);
-        return "add_crmpost";
+        return "admin/add_crmpost";
     }
 
     @PostMapping ("/add_crmpost")
@@ -64,7 +64,7 @@ public class CRMPostController {
                                Model model){
         CRMPost crmpost = new CRMPost (sr);
         crmPostRepo.save(crmpost);
-        return "crmpost_admin";
+        return "admin/crmpost_admin";
     }
 
     @GetMapping("/edit_crmpost/{id}")
@@ -73,7 +73,7 @@ public class CRMPostController {
 
         model.addAttribute("id", crmpost);
         model.addAttribute("sr", crmpost);
-        return "edit_crmpost";
+        return "admin/edit_crmpost";
     }
 
     @PostMapping ("/update_crmpost")
@@ -82,7 +82,7 @@ public class CRMPostController {
         crmPostRepo.findAllById(id);
         crmPostRepo.save(crm);
 
-        return "crmpost_admin";
+        return "admin/crmpost_admin";
     }
 
 }

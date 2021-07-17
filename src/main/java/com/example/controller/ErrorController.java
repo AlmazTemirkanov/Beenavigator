@@ -15,22 +15,22 @@ public class ErrorController implements org.springframework.boot.web.servlet.err
         ModelAndView modelAndView = new ModelAndView();
 
         if (response.getStatus() == HttpStatus.NOT_FOUND.value()){
-            modelAndView.setViewName ("error");
+            modelAndView.setViewName ("errorpages/error");
         }
         else if (response.getStatus() == HttpStatus.FORBIDDEN.value()){
-            modelAndView.setViewName("error_403");
+            modelAndView.setViewName("errorpages/error_403");
         }
         else if (response.getStatus() == HttpStatus.INTERNAL_SERVER_ERROR.value()){
-            modelAndView.setViewName("error_500");
+            modelAndView.setViewName("errorpages/error_500");
         }
         else{
-            modelAndView.setViewName("error");
+            modelAndView.setViewName("errorpages/error");
         }
     return modelAndView;
     }
 
     @Override
     public String getErrorPath() {
-        return "error";
+        return "errorpages/error";
     }
 }

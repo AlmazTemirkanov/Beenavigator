@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Postpaid;
-import com.example.repo.PostpaidRepo;
+import com.example.mainDb.domain.Postpaid;
+import com.example.mainDb.repo.PostpaidRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -42,7 +42,7 @@ public class PostpaidController {
         model.addAttribute("postpaid", postpaid);
         model.addAttribute("filter_postpaid_admin", filter_postpaid_admin);
 
-        return "postpaid_admin";
+        return "admin/postpaid_admin";
     }
 
     @GetMapping("/delete_postpaid/{id}")
@@ -64,7 +64,7 @@ public class PostpaidController {
         model.addAttribute("pmn", messages);
         model.addAttribute("network", messages);
 
-        return "edit_postpaid";
+        return "admin/edit_postpaid";
     }
 
     @PostMapping ("/update_postpaid")
@@ -72,13 +72,13 @@ public class PostpaidController {
                                    @ModelAttribute Postpaid postpaid){
         postpaidRepo.findAllById(id);
         postpaidRepo.save(postpaid);
-        return "postpaid_admin";
+        return "admin/postpaid_admin";
     }
     @GetMapping("/add_postpaid")
     public String add_postpaid (Map<String, Object> model) {
         Iterable <Postpaid> messages = postpaidRepo.findAll();
         model.put("message",messages);
-        return "add_postpaid";
+        return "admin/add_postpaid";
     }
 
     @PostMapping ("/add_postpaid")
@@ -89,7 +89,7 @@ public class PostpaidController {
                                 Model model){
         Postpaid postpaid = new Postpaid (tariff_zone, country, company, name_network, mnc, pmn, network);
         postpaidRepo.save(postpaid);
-        return "postpaid_admin";
+        return "admin/postpaid_admin";
     }
 
 

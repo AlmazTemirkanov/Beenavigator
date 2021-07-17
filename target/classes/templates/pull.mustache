@@ -278,7 +278,7 @@
                     <div class="main-header">
                         <a class="menu-link-main" href="#">Поиск по номерам</a>
                         <div class="search-bar">
-                            <input type="text" name="filter_pull" placeholder="77Axxxxxx" value="{{#filter_pull}}{{filter_pull}}{{/filter_pull}}">
+                            <input type="text" name="filter_pull" placeholder="99677Axxxxxx" value="{{#filter_pull}}{{filter_pull}}{{/filter_pull}}">
                         </div>
                         <a href="#dsd">
                             <div class="button-wrapper">
@@ -287,6 +287,32 @@
                         </a>
                     </div>
                 </form>
+
+                <div class="content-wrapper">
+                    <div class="content-section">
+                        <div class="content-section-header">
+                            <div scope="col" class="content-section-title">Номер в Мой Beeline</div>
+                            <div scope="col" class="content-section-title">Дата активности</div>
+
+                        </div>
+                        <ul>
+                            {{#myBeelines}}
+                                <li class="adobe-product">
+                                    <div class="products">
+                                        {{#msisdn}}{{msisdn}}{{/msisdn}}
+                                    </div>
+                                    <span class="status">
+                                        {{#actv_date_time}}{{actv_date_time}}{{/actv_date_time}}</span>
+
+                                </li>
+
+                            {{/myBeelines}}
+                        </ul>
+                    </div>
+
+                </div>
+
+
                 <div class="content-wrapper">
                     <div class="content-section">
                         <div class="content-section-header">
@@ -317,6 +343,12 @@
                     </div>
 
                 </div>
+
+
+
+
+
+
             </div>
         </div>
         <div class="overlay-app"></div>

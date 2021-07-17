@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.example.domain.Prepaid;
-import com.example.repo.PrepaidRepo;
+import com.example.mainDb.domain.Prepaid;
+import com.example.mainDb.repo.PrepaidRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -44,7 +44,7 @@ public class PrepaidController {
         model.addAttribute("prepaid", prepaid);
         model.addAttribute("filter_prepaid_admin", filter_prepaid_admin);
 
-        return "prepaid_admin";
+        return "admin/prepaid_admin";
     }
 
 
@@ -67,7 +67,7 @@ public class PrepaidController {
         model.addAttribute("pmn", messages);
         model.addAttribute("network", messages);
 
-        return "edit_prepaid";
+        return "admin/edit_prepaid";
     }
 
     @PostMapping ("/update_prepaid")
@@ -75,14 +75,14 @@ public class PrepaidController {
                                   @ModelAttribute Prepaid prepaid){
         prepaidRepo.findAllById(id);
         prepaidRepo.save(prepaid);
-        return "prepaid_admin";
+        return "admin/prepaid_admin";
     }
 
     @GetMapping("/add_prepaid")
     public String add_prepaid (Map<String, Object> model) {
         Iterable <Prepaid> messages = prepaidRepo.findAll();
         model.put("message",messages);
-        return "add_prepaid";
+        return "admin/add_prepaid";
     }
 
     @PostMapping ("/add_prepaid")
@@ -93,7 +93,7 @@ public class PrepaidController {
                                Model model){
         Prepaid prepaid = new Prepaid (tariff_zone, country, company, name_network, mnc, pmn, network);
         prepaidRepo.save(prepaid);
-        return "prepaid_admin";
+        return "admin/prepaid_admin";
     }
 
 }

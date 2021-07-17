@@ -1,9 +1,8 @@
 package com.example.controller;
 
-import com.example.domain.Message;
-import com.example.repo.MessageRepo;
+import com.example.mainDb.domain.Message;
+import com.example.mainDb.repo.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -53,7 +52,7 @@ public class MainController {
         model.addAttribute("messages", messages);
         model.addAttribute("filterAd", filterAd);
 
-        return "admin";
+        return "admin/admin";
     }
 
     @GetMapping ("/calc")
@@ -84,7 +83,7 @@ public class MainController {
     public String add (Map<String, Object> model) {
         Iterable <Message> messages = messageRepo.findAll();
         model.put("message",messages);
-        return "add";
+        return "admin/add";
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
@@ -96,7 +95,7 @@ public class MainController {
                        Model model){
         Message message = new Message(area, district, region, selo, voice, WCDMA, LTE);
         messageRepo.save(message);
-        return "admin";
+        return "admin/admin";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/edit/{id}")
@@ -112,7 +111,7 @@ public class MainController {
         model.addAttribute("WCDMA", messages);
         model.addAttribute("LTE", messages);
 
-        return "edit";
+        return "admin/edit";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping ("/update")
@@ -121,7 +120,7 @@ public class MainController {
         messageRepo.findAllById(id);
         messageRepo.save(message);
 
-        return "admin";
+        return "admin/admin";
     }
     @GetMapping("/vip")
     public String vip(Map<String, Object> model) {
