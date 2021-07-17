@@ -28,7 +28,7 @@ public class ContentController {
         }
         model.addAttribute("content", content);
         model.addAttribute("filter_content", filter_content);
-        return "mainTableConfig";
+        return "content";
     }
 
     @GetMapping("/content_admin")
@@ -41,7 +41,7 @@ public class ContentController {
         }
         model.addAttribute("content", content);
         model.addAttribute("filter_content_admin", filter_content_admin);
-        return "content_admin";
+        return "admin/content_admin";
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
@@ -49,7 +49,7 @@ public class ContentController {
     public String add_content (Map<String, Object> model) {
         Iterable <Content> contents = contentRepo.findAll();
         model.put("message",contents);
-        return "add_content";
+        return "admin/add_content";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("add_content")
@@ -59,7 +59,7 @@ public class ContentController {
                                    Model model){
         Content content = new Content (number, type, service, provider, tariff, rounding);
         contentRepo.save(content);
-        return "content_admin";
+        return "admin/content_admin";
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
@@ -80,7 +80,7 @@ public class ContentController {
         model.addAttribute("tariff", contents);
         model.addAttribute("rounding", contents);
 
-        return "edit_content";
+        return "admin/edit_content";
     }
 
     @PostMapping ("/update_content")
@@ -88,7 +88,7 @@ public class ContentController {
                                   @ModelAttribute Content content){
         contentRepo.findAllById(id);
         contentRepo.save(content);
-        return "content_admin";
+        return "admin/content_admin";
     }
 
 

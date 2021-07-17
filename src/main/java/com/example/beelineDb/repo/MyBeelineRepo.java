@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface MyBeelineRepo extends CrudRepository<MyBeeline, Integer> {
+public interface MyBeelineRepo extends CrudRepository<MyBeeline, String> {
     List<MyBeeline> findByMsisdn (String msisdn);
 }

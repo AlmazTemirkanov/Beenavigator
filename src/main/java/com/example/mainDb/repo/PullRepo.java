@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface PullRepo extends CrudRepository <Pull, Integer> {
-    List<Pull> findByNumber (Integer number);
+public interface PullRepo extends CrudRepository <Pull, String> {
+    List<Pull> findByNumber (String number);
 }

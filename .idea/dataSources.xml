@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="projectDB@localhost" uuid="6a2b8051-688c-456c-acab-aea78ca59d61">
+    <data-source source="LOCAL" name="Sweatter" uuid="6a2b8051-688c-456c-acab-aea78ca59d61">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/projectDB</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/sweatter</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Gazprom" uuid="9f1d286c-d022-4eaf-9790-ddd2234634e6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/gazprom</jdbc-url>
     </data-source>
   </component>
 </project>

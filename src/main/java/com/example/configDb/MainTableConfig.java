@@ -1,6 +1,7 @@
 package com.example.configDb;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
@@ -28,15 +29,15 @@ import javax.sql.DataSource;
 public class MainTableConfig {
 
     @Primary
-    @Bean(name = "dataSource")
+    @Bean (name = "dataSource")
     @ConfigurationProperties(prefix = "spring.datasource")
-    public DataSource medaliaDataSource() {
+    public DataSource sweatterDataSource() {
         return DataSourceBuilder.create().build();
     }
 
     @Primary
     @Bean(name = "entityManager")
-    public LocalContainerEntityManagerFactoryBean medaliaEntityManager(
+    public LocalContainerEntityManagerFactoryBean sweatterEntityManager(
             EntityManagerFactoryBuilder builder, @Qualifier("dataSource") DataSource secDataSource) {
         return builder
                 .dataSource(secDataSource)
@@ -47,8 +48,8 @@ public class MainTableConfig {
     @Primary
     @Bean(name = "entityTransactionManager")
     public PlatformTransactionManager barTransactionManager
-            (@Qualifier("entityManager") EntityManagerFactory medaliaEntityManager) {
-        return new JpaTransactionManager(medaliaEntityManager);
+            (@Qualifier("entityManager") EntityManagerFactory sweatterManager) {
+        return new JpaTransactionManager(sweatterManager);
     }
 
 

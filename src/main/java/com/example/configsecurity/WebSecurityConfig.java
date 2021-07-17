@@ -1,4 +1,4 @@
-package com.example.config;
+package com.example.configsecurity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -32,7 +32,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/js/**",
                         "/img/**",
                     "/filter_privet", "/fraud","/perebros", "/perebros_ds","/filter_title", "/content_name",
-                        "/content", "/main1","/filter_content", "/vip", "/script_text").permitAll()
+                        "/content", "/main1","/filter_content", "/vip","/script_text").permitAll()
                 .anyRequest().authenticated()
                 .and()
                     .formLogin()

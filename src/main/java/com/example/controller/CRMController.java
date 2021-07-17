@@ -49,14 +49,14 @@ public class CRMController {
         model.addAttribute("crm", crm);
         model.addAttribute("filter_crm_admin", filter_crm_admin);
 
-        return "crm_admin";
+        return "admin/crm_admin";
     }
 
     @GetMapping("/add_crm")
     public String add_crm (Map<String, Object> model) {
         Iterable <CRM> crm = crmRepo.findAll();
         model.put("crm",crm);
-        return "add_crm";
+        return "admin/add_crm";
     }
 
     @PostMapping ("/add_crm")
@@ -64,7 +64,7 @@ public class CRMController {
                                Model model){
         CRM crm = new CRM (sr);
         crmRepo.save(crm);
-        return "crm_admin";
+        return "admin/crm_admin";
     }
 
     @GetMapping("/edit_crm/{id}")
@@ -73,7 +73,7 @@ public class CRMController {
 
         model.addAttribute("id", crm);
         model.addAttribute("sr", crm);
-        return "edit_crm";
+        return "admin/edit_crm";
     }
 
     @PostMapping ("/update_crm")
@@ -82,7 +82,7 @@ public class CRMController {
         crmRepo.findAllById(id);
         crmRepo.save(crm);
 
-        return "crm_admin";
+        return "admin/crm_admin";
     }
 
 }

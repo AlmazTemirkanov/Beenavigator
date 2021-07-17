@@ -39,14 +39,14 @@ public class SMSController {
         }
         model.addAttribute("sms", sms);
         model.addAttribute("filter_sms_admin", filter_sms_admin);
-        return "sms_admin";
+        return "admin/sms_admin";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/add_sms")
     public String add_sms (Map<String, Object> model) {
         Iterable <SMS> sms = smsRepo.findAll();
         model.put("sms",sms);
-        return "add_sms";
+        return "admin/add_sms";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("add_sms")
@@ -56,7 +56,7 @@ public class SMSController {
                                Model model){
         SMS sms = new SMS (date, topic, initiator, text_topic, pull, comments);
         smsRepo.save(sms);
-        return "sms_admin";
+        return "admin/sms_admin";
     }
     @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/delete_sms/{id}")
@@ -78,7 +78,7 @@ public class SMSController {
         model.addAttribute("pull", sms);
         model.addAttribute("comments", sms);
 
-        return "edit_sms";
+        return "admin/edit_sms";
     }
 
     @PostMapping ("/update_sms")
@@ -87,7 +87,7 @@ public class SMSController {
         smsRepo.findById(id);
         smsRepo.save(sms);
 
-        return "sms_admin";
+        return "admin/sms_admin";
     }
 
 
