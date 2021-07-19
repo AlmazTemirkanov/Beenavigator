@@ -19,7 +19,7 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addViewController("/login").setViewName("login");
         registry.addViewController("/content").setViewName("mainTableConfig");
         registry.addViewController("/csi_page").setViewName("csi_opio");
-        registry.addViewController("/mybeeline").setViewName("mybeeline");
+
 
 
     }

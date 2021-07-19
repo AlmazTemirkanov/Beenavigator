@@ -6,170 +6,52 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ccc6667-4494-4afc-b5b8-aca8a4dfd60a" name="Default Changelist" comment="new front">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beelineDb/controller/MyBeelineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beelineDb/domain/MyBeeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beelineDb/repo/MyBeelineRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/configDb/MainTableConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/configDb/MyBeelineConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Pull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/PullRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/sweatter.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/beelineDb/domain/MyBeeline.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/beelineDb/repo/MyBeelineRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/configDb/MainTableConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/configDb/MyBeelineConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Pull.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/CRMPostRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/CRMRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/ContentRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/MessageRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/PostpaidRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/PrepaidRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/PrivetRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/PullRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/SMSRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/TextRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/repo/UserRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="7ccc6667-4494-4afc-b5b8-aca8a4dfd60a" name="Default Changelist" comment="before add second db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/configsecurity/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/CRMController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/CRMController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/CRMPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/CRMPostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ContentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/PostpaidController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PostpaidController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/PrepaidController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PrepaidController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/PrivetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PrivetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/PullController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PullController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/SMSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/SMSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/TextController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/CRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/CRM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/CRMPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/CRMPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Postpaid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Postpaid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Prepaid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Prepaid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Privet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Privet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Pull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/SMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/SMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/CRMPostRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/CRMPostRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/CRMRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/CRMRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/ContentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/ContentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/PostpaidRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/PostpaidRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/PrepaidRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/PrepaidRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/PrivetRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/PrivetRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/PullRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/SMSRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/SMSRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/TextRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/TextRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_content.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_crm.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_crmpost.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_postpaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_prepaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/add_sms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/content_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/crm_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/crm_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/crmpost_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/crmpost_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_content.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_crm.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_crmpost.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_postpaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_prepaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/edit_sms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errorpages/error.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error_403.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errorpages/error_403.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error_500.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errorpages/error_500.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postpaid_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/postpaid_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/prepaid_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/prepaid_admin.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/crm.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/crmpost.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/csi_cc.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/csi_cc.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/csi_opio.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/csi_opio.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fraud.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fraud.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/internet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/internet.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/map.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/map.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mybeeline.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/not-internet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/not-internet.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/office.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/office.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/perebros.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/perebros.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/postpaid.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/prepaid.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/privet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/privet.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sms_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/sms_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/configsecurity/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/configsecurity/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/CRMController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/CRMController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/CRMPostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/CRMPostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/ContentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/ErrorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/script.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/script.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sms.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vip.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vip.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/configsecurity/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/configsecurity/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/PostpaidController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/PostpaidController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/PrepaidController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/PrepaidController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/PrivetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/PrivetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/PullController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/PullController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/SMSController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/SMSController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/TextController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/TextController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/CRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/CRM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/CRMPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/CRMPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Postpaid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Postpaid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Prepaid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Prepaid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Privet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Privet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Pull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/SMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/SMS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mainDb/domain/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/CRMPostRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/CRMRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/ContentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/MessageRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/PostpaidRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/PrepaidRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/PrivetRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/PullRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/SMSRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/TextRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repo/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_content.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_crm.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_crmpost.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_postpaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_prepaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/add_sms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/content_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/content_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/crm_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/crm_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/crmpost_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/crmpost_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_content.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_crm.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_crmpost.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_postpaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_prepaid.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/edit_sms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/errorpages/error.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error_403.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/errorpages/error_403.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error_500.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/errorpages/error_500.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/postpaid_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/postpaid_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/prepaid_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/prepaid_admin.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/content.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/content.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/crm.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/crm.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/crmpost.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/crmpost.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/csi_cc.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/csi_cc.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/csi_opio.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/csi_opio.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fraud.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fraud.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/internet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/internet.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/map.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/map.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/mybeeline.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/not-internet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/not-internet.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/office.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/office.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/perebros.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/perebros.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/postpaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/postpaid.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/prepaid.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/prepaid.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/privet.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/privet.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/pull.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pull.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/sms_admin.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/sms_admin.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/script.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/script.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/sms.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vip.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vip.mustache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -230,7 +112,51 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/calc.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/content.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="193" column="28" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pull.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="274" column="76" selection-start-line="274" selection-start-column="76" selection-end-line="274" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/crm.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="233" column="32" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -273,17 +199,19 @@
       <find>alert</find>
       <find>btn btn-outline-dark</find>
       <find>login</find>
+      <find>mybeeline</find>
     </findStrings>
     <replaceStrings>
       <replace>/main</replace>
       <replace>/</replace>
       <replace>CSI КЦ</replace>
-      <replace />
       <replace>Swal.fire</replace>
       <replace>content-button status-button open</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>E:\IdeaProjects\twitter\src\main\resources\templates</dir>
+      <dir>E:\IdeaProjects\twitter\src\main\resources</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -298,17 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/error_500.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/content.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/crm.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/crmpost.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/csi_cc.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/csi_opio.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/script.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/internet.mustache" />
@@ -317,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/map.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/privet.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/content.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/vip.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sms.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/office.mustache" />
@@ -325,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/postpaid.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/prepaid.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/privet.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/script.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sms.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/vip.mustache" />
@@ -346,10 +261,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/beelineDb/repo/MyBeelineRepo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mybeeline.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/application-local.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/beelineDb/controller/MyBeelineController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/configsecurity/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/ErrorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/ContentController.java" />
@@ -359,6 +272,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/PrepaidController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/SMSController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/PullController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/content.mustache" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/pull.mustache" />
       </list>
     </option>
   </component>
@@ -432,6 +350,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="configsecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
@@ -758,7 +694,7 @@
       <workItem from="1624870003678" duration="4951000" />
       <workItem from="1624970606674" duration="3801000" />
       <workItem from="1626522360952" duration="6563000" />
-      <workItem from="1626530787341" duration="638000" />
+      <workItem from="1626530787341" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="change file">
       <created>1574339346808</created>
@@ -792,7 +728,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1153027000" />
+    <option name="totallyTimeSpent" value="1154777000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -820,7 +756,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.32718894" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32872504" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32718894" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.953917" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49920508" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.328125" />
@@ -840,7 +776,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.27857143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.28333333" />
       <window_info id="Structure" order="1" sideWeight="0.5046875" side_tool="true" weight="0.25557324" />
       <window_info id="Web" order="2" sideWeight="0.5046875" side_tool="true" weight="0.25557324" />
       <window_info id="Designer" order="3" />
@@ -849,12 +785,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" visible="true" weight="0.42703533" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" visible="true" weight="0.42703533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.32718894" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32872504" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32718894" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.953917" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49920508" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.328125" />
@@ -924,11 +860,10 @@
     <MESSAGE value="new edit page" />
     <MESSAGE value="new data base" />
     <MESSAGE value="new front" />
-    <option name="LAST_COMMIT_MESSAGE" value="new front" />
+    <MESSAGE value="before add second db" />
+    <option name="LAST_COMMIT_MESSAGE" value="before add second db" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mainDb/fsf" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/beelineDb/testConfig" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/beelineDb/domain/vvxcvxcv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mainDb/domain/Privet.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1031,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/content.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mainDb/repo/PullRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1110,24 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pull.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="287" column="79" lean-forward="true" selection-start-line="287" selection-start-column="79" selection-end-line="287" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/test.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3332" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/beelineDb/controller/MyBeelineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
@@ -1144,23 +1058,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/configsecurity/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1234,16 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/admin.mustache">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1273,6 +1160,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/beelineDb/controller/MyBeelineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/configsecurity/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/calc.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/content.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="193" column="28" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/configsecurity/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pull.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="274" column="76" selection-start-line="274" selection-start-column="76" selection-end-line="274" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/crm.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="233" column="32" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
         </state>
       </provider>
     </entry>
