@@ -11,7 +11,8 @@ import java.time.LocalDate;
 @Entity
 @Getter
 @Setter
-@Table(name = "mybeeline")
+//@Table(name = "mybeeline")
+ @Table(name = "mv_my_beeline_actv", schema = "ivr_triggers")
 public class MyBeeline {
     @Id
     @Column(name = "id")
